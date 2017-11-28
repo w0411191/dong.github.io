@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+/*
+New Perspectives on HTML5 and CSS3, 7th Edition
+Final Project
+
+Portfolio College
+Author: Dong
+Date:   2017-12-08
+
+Filename: fp_reset.css
+
+*/
+
+/* Body Header Styles */
+
+body > header > img {
+    display: block;
+    width: 100%
+}
+
+body > header > nav.horizontalNavigation li {
+    width: 20%;
+}
+
+/* Horizontal Navigation Styles */
+
+nav.horizontalNavigation li {
+    display: block;
+    float: left;
+}
+
+nav.horizontalNavigation a {
+    display: block;
+    text-align: center;
+    background-color: rgb(113, 86, 39);
+    line-height: 1.8em;
+    text-align: center;
+}
+
+nav.horizontalNavigation a:link,
+nav.horizontalNavigation a:visited {
+    color: rgb(239, 220, 156);
+}
+
+nav.horizontalNavigation a:hover,
+nav.horizontalNavigation a:active {
+    background-color: rgb(71, 52, 29);
+}
